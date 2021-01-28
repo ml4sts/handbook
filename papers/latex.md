@@ -1,1 +1,1 @@
-# Latex Tips
+# LaTeX Tips

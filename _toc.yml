@@ -8,4 +8,4 @@
 - file: papers/index
   sections:
     - file: papers/writing
-    - file: papers/latex
+    # - file: papers/latex
