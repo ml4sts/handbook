@@ -1,0 +1,11 @@
+- file: intro
+
+- file: onboarding/index
+  sections:
+    - file: onboarding/reading
+
+
+- file: papers/index
+  sections:
+    - file: papers/writing
+    - file: papers/latex
