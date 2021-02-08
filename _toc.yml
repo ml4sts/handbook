@@ -3,6 +3,7 @@
 - file: onboarding/index
   sections:
     - file: onboarding/reading
+    - file: onboarding/mentoring
 
 
 - file: papers/index
