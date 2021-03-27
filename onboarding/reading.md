@@ -4,7 +4,7 @@ Reading research papers is an essential skill in research. To learn this
  skill, start with reading [How to Read a Paper](../resources/keshav_howtoread.pdf)
  which describes a framework for effectively reading complex papers.
 
-
+(reading:references)=
 ## Reference Management
 
 While you are reading, you will accumulate a lot of papers.  It is best to

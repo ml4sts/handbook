@@ -6,7 +6,12 @@
     - file: onboarding/mentoring
 
 
-- file: papers/index
+- file: writing/index
   sections:
-    - file: papers/writing
-    # - file: papers/latex
+    - file: writing/latex
+    - file: writing/cutting
+
+- file: projects/index
+  sections:
+    - file: projects/documentation
+    - file: projects/plotting
