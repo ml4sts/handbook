@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reading Research &#8212; My sample book</title>
+    <title>LaTeX Tips &#8212; My sample book</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -54,8 +54,6 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Mentoring" href="mentoring.html" />
-    <link rel="prev" title="Onboarding" href="index.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -92,19 +90,19 @@
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active collapsible-parent">
-  <a class="reference internal" href="index.html">
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../onboarding/index.html">
    Onboarding
   </a>
-  <ul class="current collapse-ul">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../onboarding/reading.html">
      Reading Research
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="mentoring.html">
+    <a class="reference internal" href="../onboarding/mentoring.html">
      Mentoring
     </a>
    </li>
@@ -161,7 +159,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/onboarding/reading.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/writing/latex.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -186,21 +184,6 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i>
-            Contents
-        </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#reference-management">
-   Reference Management
-  </a>
- </li>
-</ul>
-
-        </nav>
-        
         </div>
     </div>
 </div>
@@ -209,30 +192,11 @@
         
               <div>
                 
-  <div class="section" id="reading-research">
-<h1>Reading Research<a class="headerlink" href="#reading-research" title="Permalink to this headline">¶</a></h1>
-<p>Reading research papers is an essential skill in research. To learn this
-skill, start with reading <span class="xref myst">How to Read a Paper</span>
-which describes a framework for effectively reading complex papers.</p>
-<div class="section" id="reference-management">
-<h2>Reference Management<a class="headerlink" href="#reference-management" title="Permalink to this headline">¶</a></h2>
-<p>While you are reading, you will accumulate a lot of papers.  It is best to
-keep track of them using a a reference manager, for example <a class="reference external" href="https://www.zotero.org/">Zotero</a>.<br />
-. Create an account and <a class="reference external" href="https://www.zotero.org/groups/2869556/ml4sts">request to join the lab’s group</a>. As you add papers to your library, add them to the appropriate projects group as well to share them with co-authors.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Set up  <a class="reference external" href="https://scholar.google.com/scholar_settings?oi=gsb&amp;hl=en#2">google scholar to use the URI library</a> so that you’ll get better links to accessing paywalled papers</p>
-</div>
-<p>We write papers using LaTeX, which uses BibTeX for writing bibliographies, so
-maintaining your read papers in BibTeX will make it easier when you start
-preparing papers. Zotero can output a BibTeX and it can be imported directly to Overleaf. I also recommend the <a class="reference external" href="https://retorque.re/zotero-better-bibtex/installation/">better BibTeX extension</a> and <a class="reference external" href="https://retorque.re/zotero-better-bibtex/citing/#set-your-own-fixed-citation-keys">setting the citation keys</a> to be <code class="docutils literal notranslate"><span class="pre">lastnameYYYYfirstword</span></code>.</p>
-<p>Ways to get the BibTeX entry for a paper</p>
-<ul class="simple">
-<li><p>from Google Scholar, click the cite button, then choose BibTeX.</p></li>
-<li><p>add to a reference management software and fill in fields</p></li>
-<li><p>follow the <a class="reference external" href="http://www.bibtex.org/Format/">BibTeX standard</a> and write it manually</p></li>
-</ul>
-</div>
+  <div class="section" id="latex-tips">
+<h1>LaTeX Tips<a class="headerlink" href="#latex-tips" title="Permalink to this headline">¶</a></h1>
+<p>Use the <a class="reference external" href="http://tug.ctan.org/macros/latex/contrib/todonotes/todonotes.pdf"><code class="docutils literal notranslate"><span class="pre">todonotes</span></code></a> package for margin notes.</p>
+<p>Link to your Zotero after you’ve joined the shared shared group to get the imported library into your paper. See more about <span class="xref myst">referencing</span>.</p>
+<p>Tables are generally best maintained in a .csv and then converted, for example with this <a class="reference external" href="https://gsuite.google.com/marketplace/app/spreadlatex/218144906748">Spread-LaTeX Chrome extension</a>.</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -248,7 +212,7 @@ preparing papers. Zotero can output a BibTeX and it can be imported directly to 
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./onboarding"
+            path: "./writing"
         },
         predefinedOutput: true
     }
@@ -260,8 +224,6 @@ preparing papers. Zotero can output a BibTeX and it can be imported directly to 
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Onboarding</a>
-    <a class='right-next' id="next-link" href="mentoring.html" title="next page">Mentoring</a>
 
         </div>
         
