@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mentoring &#8212; My sample book</title>
+    <title>Plots &#8212; My sample book</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -54,8 +54,6 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Writing Papers" href="../papers/index.html" />
-    <link rel="prev" title="Reading Research" href="reading.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -92,19 +90,19 @@
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active collapsible-parent">
-  <a class="reference internal" href="index.html">
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../onboarding/index.html">
    Onboarding
   </a>
-  <ul class="current collapse-ul">
+  <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="reading.html">
+    <a class="reference internal" href="../onboarding/reading.html">
      Reading Research
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../onboarding/mentoring.html">
      Mentoring
     </a>
    </li>
@@ -161,7 +159,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/onboarding/mentoring.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/writing/plotting.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -194,20 +192,12 @@
         
               <div>
                 
-  <div class="section" id="mentoring">
-<h1>Mentoring<a class="headerlink" href="#mentoring" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="plots">
+<h1>Plots<a class="headerlink" href="#plots" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li><p>Create a repo <a class="reference external" href="https://classroom.github.com/a/CmTBip2m">from this GitHub classroom assignment</a>.</p></li>
+<li><p><a class="reference external" href="https://gist.github.com/mwaskom/b35f6ebc2d4b340b4f64a4e28e778486">Colors</a></p></li>
+<li><p>The axes of subplots should always match.  The easiest way to do this is to use high level plotting functions such as  <a class="reference external" href="https://seaborn.pydata.org/tutorial/function_overview.html#figure-level-vs-axes-level-functions">seaborn’s figure level</a> to make subfigures. If using lower level plotting functions, use <code class="docutils literal notranslate"><span class="pre">sharex,</span> <span class="pre">sharey</span></code> properties of the <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html">subplot</a> or similar.</p></li>
 </ul>
-<p>In your new repo:</p>
-<ol class="simple">
-<li><p>Go to the issues tab</p></li>
-<li><p>Click new issue</p></li>
-<li><p>Choose <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Student</span> <span class="pre">Checklist</span></code> as the type</p></li>
-<li><p>put your name in the title and customize it if you know how.</p></li>
-</ol>
-<p>Follow the instructions to complete the steps that you can &amp; ask for help as needed.</p>
-<p>Schedule a 1:1 meeting (links on slack)</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -223,7 +213,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./onboarding"
+            path: "./writing"
         },
         predefinedOutput: true
     }
@@ -235,8 +225,6 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="reading.html" title="previous page">Reading Research</a>
-    <a class='right-next' id="next-link" href="../papers/index.html" title="next page">Writing Papers</a>
 
         </div>
         
