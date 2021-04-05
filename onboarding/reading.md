@@ -23,3 +23,7 @@ Ways to get the BibTeX entry for a paper
   - from Google Scholar, click the cite button, then choose BibTeX.
   - add to a reference management software and fill in fields
   - follow the [BibTeX standard](http://www.bibtex.org/Format/) and write it manually
+
+## URI Library Easy access
+
+This [browser extension](https://www.leanlibrary.com/download/) is supported by the [URI Library](https://web.uri.edu/library/2020/12/17/library-access/).
