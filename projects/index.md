@@ -17,5 +17,6 @@ Dr. Brown is a maintainer for this Lesson on [Packaging and Publishing in Python
   - a response and follow up
 * - [Research Software Engineering with Python](https://merely-useful.github.io/py-rse/index.html)
   - a book length on designing software products for research
-
+* - [Software Design for Data Science](https://github.com/gvwilson/12-design/)
+  - a paper/talk transcript on software design for researchrers coming from data science
 ```
