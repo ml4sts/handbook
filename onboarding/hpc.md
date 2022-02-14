@@ -1,4 +1,4 @@
-# HPC Access
+# HPC Accesso
 
 ## Lab computers 
 
@@ -7,8 +7,8 @@
 
 ## URI HPC 
 
-
-- request URI access by e-mailing with Dr. Brown in cc
+- Download PuTTY and generate ssh2 key pair
+- request URI access by e-mailing the public key to hpc@etal.uri.edu with Dr. Brown in cc
 - [HPC at URI]()
 
 
@@ -20,7 +20,7 @@ prereq: Get an account on Oscar from CCV
 log in to oscar:
 
 ```
-ssh <username>@ssh.ccv.brown.edu
+ssh <username>@ssh3.hac.uri.edu
 ```
 To use a notebook on oscar, you will need an interactive session. Get one with the following: see the above documentation
 
