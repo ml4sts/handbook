@@ -1,8 +1,8 @@
-# HPC Accesso
+# HPC Access
 
 ## Lab computers 
 
-- medium compute in th elab computers 
+- medium compute in the lab computers 
 - request access on slack for lab computers 
 
 ## URI HPC 
@@ -14,15 +14,15 @@
 
 ## HPC Interactive Sessions with Jupyter Notebooks 
 
-Using Notebooks with CCV (Oscar) at Brown
-prereq: Get an account on Oscar from CCV
+Using Notebooks with the HPC at URI
+prereq: Get an account on the HPC system
 
-log in to oscar:
+log in to the login node:
 
 ```
 ssh <username>@ssh3.hac.uri.edu
 ```
-To use a notebook on oscar, you will need an interactive session. Get one with the following: see the above documentation
+To use a notebook on the cluster, you will need an interactive session. Get one with the following: see the above documentation
 
 ```
 interact -t 01:00:00 -m 100g
