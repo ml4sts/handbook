@@ -1,5 +1,6 @@
 # Cutting papers to length
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In order to write well, you must be willing to sacrifice your soldiers. Some beloved words will get cut from the title, some beloved sentences from the abstract, some beloved paragraphs from the intro, and sometimes entire sections that just don&#39;t belong in this particular paper.</p>&mdash; Zachary Lipton (@zacharylipton) <a href="https://twitter.com/zacharylipton/status/1435617080179560449?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Concise writing is important for clarity and most CS venues include length limits in pages. When you're writing at first, write as long as it takes to tell the complete story. Then, make it shorter in the revision stage.  This page is a growing list of things to look for when you're cutting a paper to length.  
 
