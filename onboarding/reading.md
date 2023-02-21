@@ -2,7 +2,25 @@
 
 Reading research papers is an essential skill in research. To learn this
  skill, start with reading [How to Read a Paper](../resources/keshav_howtoread.pdf)
- which describes a framework for effectively reading complex papers.
+ which describes a framework for effectively reading complex papers. 
+ 
+Another good, less formal appraoch to the topic is [this how to article in Science](https://www.science.org/content/article/how-seriously-read-scientific-paper).
+
+## Paper presentations
+
+Thee goal of presenting a paper is to highlight the most important ideas and create room for discussion. 
+We want all members of the group to understand the paper and to connect it to our own research. 
+
+You may either share the paper itself or use slides, but either way the goal is not to read the paper but instead to 
+help us (and yourself) understand it more deeply and to draw connections to our research. 
+
+Highlight each of the following:
+- Summary/main points
+- Type of paper and methodology
+- Key figures/ equations
+- points of confusion
+- weaknesses of the article
+- your conclusion about the article
 
 (reading:references)=
 ## Reference Management
