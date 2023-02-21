@@ -1,5 +1,7 @@
-- file: intro
+formtat: jb-book
+root: intro
 
+chapters:
 - file: onboarding/index
   sections:
     - file: onboarding/reading
