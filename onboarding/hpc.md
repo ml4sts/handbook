@@ -2,14 +2,19 @@
 
 ## Lab computers 
 
-- medium compute in th elab computers 
-- request access on slack for lab computers 
+- medium compute in the lab computers 
+- request access on slack for lab computers
+- there is a default password there
 
 ## URI HPC 
 
 
 - request URI access by e-mailing with Dr. Brown in cc
 - [HPC at URI]()
+
+
+## Unity
+
 
 
 ## HPC Interactive Sessions with Jupyter Notebooks 
