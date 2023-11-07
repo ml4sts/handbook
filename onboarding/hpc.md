@@ -58,6 +58,9 @@ that gives a time (-t)limit of 1 hour and (100Gb) of ram on one (default number)
 1. point browser to localhost:8000 and enter the token to access the notebook server
 1. moving files to work locally if neeeded with:
 
+     ```
+    scp /path/to/source/file <username>@transfer.ccv.brown.edu:/path/to/destination/file
+    ```
 
 
 
@@ -85,6 +88,21 @@ that gives a time (-t)limit of 1 hour and (100Gb) of ram on one (default number)
 - The details are documented here https://docs.unity.uri.edu/connecting/ssh.html
 
 
-    ```
-    scp /path/to/source/file <username>@transfer.ccv.brown.edu:/path/to/destination/file
-    ```
+  ## Add Git to Unity with SSH:
+
+- To pull or clone any Git repository, Git does not use password anymore. It uses SSH key. To generate the key, go to account>settings>SSH..>generate a new key. 
+- Save the key to a secure location. This key replaces the password. Whenever the console asks for password, use this key instead.
+
+## To add Git account to the system, run the following command in the console:
+
+- ssh-keygen -t ed25519 -C "your_email@example.com"
+- Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+ssh-keygen -t rsa -b 4096 -C “your_email@example.com”
+- when the command asks for a file name click enter to set it to default. The command should look like this “> Enter a file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]”
+- This will generate a .ssh folder in the home directory. This cannot be directly seen in the file browser as it is a hidden folder. To show hidden folders turn on show dot folders in https://ood.unity.rc.umass.edu/pun/sys/dashboard/files/fs//home/<user_name>
+- The folder now contains two key files privet and public. The id_rsa is the privet key and id_rsa.pub is the public key. 
+- Open the public key file, copy the key (the key starts with ssh-rsa) and add it to your git profile. Profile>settings>SSH…>add new key.
+- This will add the remote server to your account.
+- Now run “ssh -T git@github.com” to check if your username shows up in the console. This will confirm that the account has been added. 
+
+
