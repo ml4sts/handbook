@@ -56,7 +56,32 @@ that gives a time (-t)limit of 1 hour and (100Gb) of ram on one (default number)
     ```
     enter your password and nothing will happen, but it will be working.
 1. point browser to localhost:8000 and enter the token to access the notebook server
-1. moving files to work locally if neeeded with: 
+1. moving files to work locally if neeeded with:
+
+
+#Log into Unity account and run commands:
+
+-https://unity.uri.edu/panel/account.php
+-Either use Jupyter notebook for a more user interface-based experience. If preferred consol/CMD, add the SSH key to the local computer by following the following steps.
+-Generate the SSH key from the account. The key should begin with ssh-rsa… … …. 
+-Use the key to setup a configuration file to the local system. To do this, save the ssh key as a .key file. Notepad++ can be used for this. 
+-Save the .key file to a folder. Such as: C:\Users\pujag\.ssh\unity-privkey.key.
+-Then generate a configuration file to connect to Unity. 
+
+##The configuration file should be like the 
+following:
+
+-“Host unity
+-HostName unity.rc.umass.edu
+-User puja_ghosh_uri_edu
+-IdentityFile C:\Users\pujag\.ssh\unity-privkey.key”
+
+-Save the file to C:\Users\pujag\.ssh\ as config file. This file should have no file extension. The file name should be only config. 
+
+-Now Unity can be launched by opening CMD and running the code “ssh unity”
+
+-The details are documented here https://docs.unity.uri.edu/connecting/ssh.html
+
 
     ```
     scp /path/to/source/file <username>@transfer.ccv.brown.edu:/path/to/destination/file
