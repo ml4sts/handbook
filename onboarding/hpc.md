@@ -58,7 +58,7 @@ that gives a time (-t)limit of 1 hour and (100Gb) of ram on one (default number)
 1. point browser to localhost:8000 and enter the token to access the notebook server
 1. moving files to work locally if neeeded with:
 
-     ```
+    ```
     scp /path/to/source/file <username>@transfer.ccv.brown.edu:/path/to/destination/file
     ```
 
