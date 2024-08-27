@@ -10,6 +10,7 @@ if you don't already have one, create accounts on:
 - Overleaf
 - GitHub
 
+Both of these tools allow you to change you 
 
 ## Mentoring
 
