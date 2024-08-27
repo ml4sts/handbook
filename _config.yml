@@ -1,7 +1,7 @@
 # Book settings
-title: ML4 STS Lab Handbook
+title: ML4STS Lab Handbook
 author: Sarah Brown and Lab Members
-logo: logo.png
+logo: sts.png
 
 latex:
   latex_documents:
