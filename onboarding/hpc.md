@@ -91,7 +91,7 @@ that gives a time (-t)limit of 1 hour and (100Gb) of ram on one (default number)
 
 
 
-# Log into Unity account and run commands:
+## Unity
 
 - https://unity.uri.edu/panel/account.php
 - Either use Jupyter notebook for a more user interface-based experience. If preferred consol/CMD, add the SSH key to the local computer by following the following steps.
