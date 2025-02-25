@@ -37,7 +37,7 @@ There are multiple ways to using Unity:
 - git is simply accessible with no extra steps necessary
 - gh on the other hand exists as a module that needs to be loaded 
 ``` Modules are packages that exist on the framework that can be loaded individually based on need for your project. To access the list of available modules type "module avail"```
-- type ```module load gh/2.43.1`` (Keep in mind this is currently the latest version. Type ```module avail``` to get the list of available modules with their latest versions that exist
+- use `module load gh/2.43.1` (Keep in mind this is currently the latest version) or `module avail` to get the list of available modules with their latest versions that exist
 
 ![Loading GH Module](https://github.com/user-attachments/assets/8706fdc0-efd1-4010-bb94-a5d7ff6ee2c1)
 
