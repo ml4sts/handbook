@@ -6,6 +6,7 @@ chapters:
   sections:
     - file: onboarding/reading
     - file: onboarding/mentoring
+    - file: onboarding/hpc
 
 
 - file: writing/index
