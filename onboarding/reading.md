@@ -41,7 +41,13 @@ We write papers using LaTeX, which uses BibTeX for writing bibliographies, so
 maintaining your read papers in BibTeX will make it easier when you start
 preparing papers. Zotero can output a BibTeX and it can be imported directly to Overleaf. 
 
+```{important}
 Install the [better BibTeX extension](https://retorque.re/zotero-better-bibtex/installation/) and [setting the citation key style](https://retorque.re/zotero-better-bibtex/citing/#configurable-citekey-generators) to be `auth.lower + year + shorttitle(1,0)`.lower`.
+
+This will make sure that we all have the same keys for each paper. 
+```
+
+To make working easy, set up the [`Better BibTeX Quick Copy`](https://retorque.re/zotero-better-bibtex/installation/preferences/export/index.html#quick-copy-format) so that if you copy-past or drag from zotero into a doc, it will give the bibtex key instead of the stylized citation. 
 
 Ways to get the BibTeX entry for a paper
   - from Google Scholar, click the cite button, then choose BibTeX.
