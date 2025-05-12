@@ -16,10 +16,9 @@
 ## Unity HPC
 
 ### Requesting access to [Unity Cluster](https://unity.uri.edu/) .
-* Start by signing in to your URI account within Unity
-* Ask your professor for the teams pi ID (Usually looks something like pi_<name>_uri_edu
+* Start by signing in to your URI SSO within Unity
 * After logging in to Unity, go to My PIs to find a list of groups
-* Click the ```+``` button and paste the pi ID you got to request access
+* Click the ```+``` button and paste `pi_<user>_uri_edu` where user is Dr. Brown's email (before the @) to request to join our group
 
 ### Using Unity
 There are multiple ways to using Unity:
@@ -31,6 +30,15 @@ There are multiple ways to using Unity:
 - On Unity you have a small personal space and a larger shared space for the PI team
 - To access the shared space do ```cd /work/pi_<nameOfGroupAdmin>```. This is the shared space for the team
 - Create your own folder and do you work there ```mkdir <folderName>```
+
+```{important}
+Always work in the `/work` directory, your `/home` will get full quickly. 
+```
+
+```{tip}
+From your `/home` directory (`cd ~`), use `ln -s /work/pi_brownsarahm_uri_edu/ work` 
+to make a link in your `/home` folder called `work` that will be a shortcut to the lab work folder
+```
 
 ### Using git/gh on Unity terminal
 - git and gh are already installed on Unity
