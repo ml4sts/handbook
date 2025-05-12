@@ -451,10 +451,9 @@ document.write(`
 <section id="requesting-access-to-unity-cluster">
 <h3>Requesting access to <a class="reference external" href="https://unity.uri.edu/">Unity Cluster</a> .<a class="headerlink" href="#requesting-access-to-unity-cluster" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Start by signing in to your URI account within Unity</p></li>
-<li><p>Ask your professor for the teams pi ID (Usually looks something like pi_<name>_uri_edu</p></li>
+<li><p>Start by signing in to your URI SSO within Unity</p></li>
 <li><p>After logging in to Unity, go to My PIs to find a list of groups</p></li>
-<li><p>Click the <code class="docutils literal notranslate"><span class="pre">+</span></code> button and paste the pi ID you got to request access</p></li>
+<li><p>Click the <code class="docutils literal notranslate"><span class="pre">+</span></code> button and paste <code class="docutils literal notranslate"><span class="pre">pi_&lt;user&gt;_uri_edu</span></code> where user is Dr. Brown’s email (before the &#64;) to request to join our group</p></li>
 </ul>
 </section>
 <section id="using-unity">
@@ -473,6 +472,15 @@ document.write(`
 <li><p>To access the shared space do <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/work/pi_&lt;nameOfGroupAdmin&gt;</span></code>. This is the shared space for the team</p></li>
 <li><p>Create your own folder and do you work there <code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">&lt;folderName&gt;</span></code></p></li>
 </ul>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Always work in the <code class="docutils literal notranslate"><span class="pre">/work</span></code> directory, your <code class="docutils literal notranslate"><span class="pre">/home</span></code> will get full quickly.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>From your <code class="docutils literal notranslate"><span class="pre">/home</span></code> directory (<code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~</span></code>), use <code class="docutils literal notranslate"><span class="pre">ln</span> <span class="pre">-s</span> <span class="pre">/work/pi_brownsarahm_uri_edu/</span> <span class="pre">work</span></code>
+to make a link in your <code class="docutils literal notranslate"><span class="pre">/home</span></code> folder called <code class="docutils literal notranslate"><span class="pre">work</span></code> that will be a shortcut to the lab work folder</p>
+</div>
 </section>
 <section id="using-git-gh-on-unity-terminal">
 <h3>Using git/gh on Unity terminal<a class="headerlink" href="#using-git-gh-on-unity-terminal" title="Link to this heading">#</a></h3>
