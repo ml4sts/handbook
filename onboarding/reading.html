@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -460,7 +460,13 @@ keep track of them using a a reference manager, for example <a class="reference 
 </div>
 <p>We write papers using LaTeX, which uses BibTeX for writing bibliographies, so
 maintaining your read papers in BibTeX will make it easier when you start
-preparing papers. Zotero can output a BibTeX and it can be imported directly to Overleaf. I also recommend the <a class="reference external" href="https://retorque.re/zotero-better-bibtex/installation/">better BibTeX extension</a> and <a class="reference external" href="https://retorque.re/zotero-better-bibtex/citing/#set-your-own-fixed-citation-keys">setting the citation keys</a> to be <code class="docutils literal notranslate"><span class="pre">lastnameYYYYfirstword</span></code>.</p>
+preparing papers. Zotero can output a BibTeX and it can be imported directly to Overleaf.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Install the <a class="reference external" href="https://retorque.re/zotero-better-bibtex/installation/">better BibTeX extension</a> and <a class="reference external" href="https://retorque.re/zotero-better-bibtex/citing/#configurable-citekey-generators">setting the citation key style</a> to be <code class="docutils literal notranslate"><span class="pre">auth.lower</span> <span class="pre">+</span> <span class="pre">year</span> <span class="pre">+</span> <span class="pre">shorttitle(1,0)</span></code>.lower`.</p>
+<p>This will make sure that we all have the same keys for each paper.</p>
+</div>
+<p>To make working easy, set up the <a class="reference external" href="https://retorque.re/zotero-better-bibtex/installation/preferences/export/index.html#quick-copy-format"><code class="docutils literal notranslate"><span class="pre">Better</span> <span class="pre">BibTeX</span> <span class="pre">Quick</span> <span class="pre">Copy</span></code></a> so that if you copy-past or drag from zotero into a doc, it will give the bibtex key instead of the stylized citation.</p>
 <p>Ways to get the BibTeX entry for a paper</p>
 <ul class="simple">
 <li><p>from Google Scholar, click the cite button, then choose BibTeX.</p></li>
