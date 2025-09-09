@@ -46,6 +46,7 @@ to make a link in your `/home` folder called `work` that will be a shortcut to t
 - gh on the other hand exists as a module that needs to be loaded 
 ``` Modules are packages that exist on the framework that can be loaded individually based on need for your project. To access the list of available modules type "module avail"```
 - use `module load gh/2.43.1` (Keep in mind this is currently the latest version) or `module avail` to get the list of available modules with their latest versions that exist
+- then use `gh auth login` to log in 
 
 ![Loading GH Module](https://github.com/user-attachments/assets/8706fdc0-efd1-4010-bb94-a5d7ff6ee2c1)
 
