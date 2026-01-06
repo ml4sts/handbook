@@ -47,12 +47,17 @@ Install the [better BibTeX extension](https://retorque.re/zotero-better-bibtex/i
 This will make sure that we all have the same keys for each paper. 
 ```
 
-To make working easy, set up the [`Better BibTeX Quick Copy`](https://retorque.re/zotero-better-bibtex/installation/preferences/export/index.html#quick-copy-format) so that if you copy-past or drag from zotero into a doc, it will give the bibtex key instead of the stylized citation. 
+To make working easy, set up the [`Better BibTeX Quick Copy`](https://retorque.re/zotero-better-bibtex/installation/preferences/export/index.html#quick-copy-format) so that if you copy-paste or drag from zotero into a doc, it will give the bibtex key instead of the stylized citation. 
 
 Ways to get the BibTeX entry for a paper
   - from Google Scholar, click the cite button, then choose BibTeX.
+  - use google scholar to create a list and export the whole list as BibTeX
   - add to a reference management software and fill in fields
   - follow the [BibTeX standard](http://www.bibtex.org/Format/) and write it manually
+
+::::{tip}
+You can copy the bibtex from google scholar and paste to zotero with [import from keyboard](https://www.zotero.org/support/kb/import_from_clipboard)
+::::
 
 ## URI Library Easy access
 
